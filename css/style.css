@@ -1,0 +1,167 @@
+body {
+    background: #FFF;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    margin: 40px 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    line-height: 1;
+    text-align:center;
+}
+
+h2 {
+    font-size: 72px;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Chelsea Market', Georgia, serif;
+    text-transform: lowercase;
+    text-align:center;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 40px auto;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+p {
+    width: 960px;
+    margin: 30px auto;
+    line-height: 200%;
+}
+
+a, a:visited {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+
+ul {list-style: none;}
+dl {width : 960px; margin: 30px auto;}
+dt {font-size: 27px;}
+
+table {
+    width : 700px;
+    margin: 30px auto;
+    border-collapse:collapse;
+}
+
+table tr, table th, table td { padding: 5px;}
+
+code {
+    background-color: #000;
+    font-style: normal;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 15px;
+    font-family: menlo, monospace;
+}
+
+#toTheTop {
+    background-image: url("https://juliend.github.io/linux-cheatsheet/img/top-page.png");
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+    height: 46px;
+    position: fixed;
+    right: 10px;
+    width: 150px;
+    z-index: 1000;
+}
+#toTheTop span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    left: 46px;
+    position: absolute;
+    top: 22px;
+}
+
+/*  BLOCKS */
+
+.block {
+    position: relative;
+    margin: auto 0;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff;
+    color: #000;
+}
+
+.block-title { padding: 20px 0 50px; text-align: center; }
+.block-title h2 { color: #000; }
+.block-title .navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.block-title .navlist a {font-size: 30px; color: #000;}
+.block-title .meta { font-size: 16px; color: #999; }
+.block-title .meta a { font-size: 16px; color: #333; }
+
+.block-comment #disqus_thread {
+    width: 960px;
+    margin: 30px auto;
+    line-height: 200%;
+}
+
+/* background block colors */
+/* Brown */
+.brown { background-color: #5E412F; color: #FCEBB6; }
+.brown code { background-color: #fff; color: #000; }
+
+/* Cream */
+.cream { background-color: #FCEBB6; color: #5E412F; }
+.cream code { background-color: #000; color: #fff; }
+
+/* Blue */
+.blue { background-color: #65b7f4; color: #06406C; }
+.blue code { background-color: #000; color: #fff;}
+
+/* Dark blue */
+.dark-blue { background-color: #06406C; color: #65b7f4; }
+.dark-blue code { background-color: #000; color: #fff;}
+
+/* White */
+.white { background-color: #F0F0D8; color: #000; }
+.white code { background-color: #000; color: #fff;}
+
+/* Dark green */
+.dark-green { background-color: #607848; color: #d1e875; }
+.block-mkdir code { background-color: #fff; color: #000;}
+
+/* Green */
+.green { background-color: #789048; color: #31440b; }
+.green code { background-color: #fff; color: #000;}
+
+/* light green */
+.light-green { background-color: #C0D860; color: #29310b; }
+.light-green code { background-color: #000; color: #fff;}
+
+/* Yellow */
+.yellow { background-color: #ddd285; color: #6e5918; }
+.yellow code { background-color: #000; color: #fff;}
+
+/* Red */
+.red { background-color: #6c0606; color: #D3B2AF; }
+.red code { background-color: #fff; color: #000;}
+
